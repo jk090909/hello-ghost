@@ -16,6 +16,7 @@ body {
     /* outline: 3px solid blue; */
     width: calc(100%/2);
     height: 90vh;
+    border-radius: 50%;
     float: left;
 }
 
@@ -111,21 +112,21 @@ body {
 
   #bg .synop {
     position: fixed;
-    width: 80%;
+    width: 800px;
     height: 428px;
     background: #fff;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     color: #333;
-    padding: 60px;
+    padding: 40px;
     box-shadow: 2px 2px 6px rgba(0,0,0, 0.6);
   }
 
   .synop p {
     /* outline: 1px solid blue; */
-    margin-bottom: 1em;
-    line-height: 70px;
+    line-height: 80px;
+    font-size: 23px;
   }
 
   /* 갤러리 모바일 목록 구성 */

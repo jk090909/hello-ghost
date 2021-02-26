@@ -35,9 +35,9 @@
   /* 모바일 기기일때 배경 구도 바꾸기 */
   @media screen and (max-width: 768px) {
     body {
-      width: 800px;
       margin: 0 auto;
       background-image: url(../images/unnamed.jpg);
+      background-position: center;
     }
 
     #main_header .header_box {
