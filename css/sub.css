@@ -1,0 +1,149 @@
+/* character */
+
+body {
+    background: #000;
+}
+
+.container {
+    max-width: 1600px;
+    /* height: 100vh; */
+    margin: 0 auto;
+     /* outline: 2px solid red; */
+  }
+  
+
+#about > ul > li > img {
+    /* outline: 3px solid blue; */
+    width: calc(100%/2);
+    height: 90vh;
+    border-radius: 50%;
+    float: left;
+}
+
+ .child{
+    /* outline: 2px solid blue; */
+    width: 30px;
+    position: absolute;
+    left: 40%;
+    bottom: 65%;
+    font-size: 25px;
+}
+
+.sad {
+    width: 30px;
+    position: absolute;
+    left: 90%;
+    bottom: 65%;
+    font-size: 25px;
+}
+
+#about .smoke {
+  /* outline: 3px solid blue; */
+  width: 30px;
+    position: absolute;
+    left: 40%;
+    bottom: -30%;
+    font-size: 25px;
+}
+
+.grandpa {
+  width: 30px;
+    position: absolute;
+    left: 90%;
+    bottom: -30%;
+    font-size: 25px;
+}
+
+
+
+/* trailer */
+
+#trailer {
+  /* outline: 3px solid blue; */
+    position: relative;
+    width: 100%;
+    background: #000;
+    height: 100px;
+  }
+  
+  #trailer #main iframe {
+      margin-top: 80px;
+      width: 100%;
+      /* header, footer 공간을 제외한 영상 영역 */
+      height: calc(100vh - 150px);
+      background: #abc;
+      /* border: 2px solid green; */
+      display: block;
+    }
+  
+    .container .sns {
+      /* outline: 1px solid blue; */
+      text-align: center;
+      width: 100%;
+      background: #000;
+      margin-top: 20px;
+    }
+  
+    .container > ul > li > p {
+      /* outline: 1px solid red; */
+      text-align: center;
+      margin-top: 20px;
+      
+    }
+  
+    .sns li {
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+  /* synopis */
+
+  #bg {
+      /* outline: 2px solid blue; */
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background: #333;
+    background-image: url(../images/sy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #bg .synop {
+    position: fixed;
+    width: 800px;
+    height: 428px;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+    padding: 40px;
+    box-shadow: 2px 2px 6px rgba(0,0,0, 0.6);
+  }
+
+  .synop p {
+    /* outline: 1px solid blue; */
+    line-height: 80px;
+    font-size: 23px;
+  }
+
+  /* 갤러리 모바일 목록 구성 */
+@media screen and (max-width: 500px) {
+  .clear { clear: both;}
+  #gallery #main ul.thumb {
+    overflow: hidden;
+    width: 100%;
+    margin-left: 20px;
+  }
+  #gallery #main ul.thumb li {
+    width: calc((100% - 40px) / 3);
+    float: left;
+    /* outline: 2px solid red; */
+    /* border: 1px solid #707070; */
+    overflow: hidden;
+  }
+}
+  
+
